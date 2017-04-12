@@ -1,0 +1,321 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0px;
+	padding: 0px;
+}
+.head {
+	background: #ec5598;
+	width: 100%;
+	position: relative;
+	height: 30px;
+}
+.logo h3 {
+	position: absolute;
+	font-size: 45px;
+	/* top: 89%; */
+	color: rgb(197, 159, 177);
+	/* left: 12%; */
+	padding-top: 1%;
+	background: white;
+	margin-top: -3%;
+}
+.menu ul {
+	list-style-type: none;
+}
+.menu ul li {
+	padding: 0px 8px;
+	float: left;
+}
+.menu ul li a {
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: "Courier New", Courier, monospace;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.menu ul li a:hover {
+	background: #ec5598;
+}
+.banner {
+	max-width: 1400px;
+	max-height: 700px;
+}
+.about {
+	padding: 10% 0px;
+}
+.about h4 {
+	color: #000;
+	font-weight: bold;
+	letter-spacing: 7px;
+}
+.aboutimg {
+	max-width: 100%;
+	max-height: 100%;
+}
+.aboutp {
+	padding: 48px 0px;
+	text-align: center;
+}
+.aboutp p {
+	text-align: left;
+	padding-top: 10px;
+}
+.discover {
+	background-color: #eae8e2;
+	width: 100%;
+	margin-top: 40px;
+}
+.dis {
+	font-size: 26px;
+	font-family: "Times New Roman", Times, serif;
+	color: #ec5598;
+	text-transform: capitalize;
+	font-weight: 400;
+	text-align: center;
+}
+.discover h4 {
+	font-size: 18px;
+	letter-spacing: 10px;
+	text-align: center;
+}
+.menus ul {
+	list-style-type: none;
+}
+.menus ul li {
+	padding: 10px 8px;
+	float: left;
+}
+.menus ul li a {
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: "Courier New", Courier, monospace;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.menus ul li a:hover {
+	background: #ec5598;
+}
+.menu1 li {
+	padding: 39px 8px;
+	float: left;
+	text-align: center;
+	width: 15%;
+}
+.price {
+	background-color: white;
+	max-width: 100%;
+	margin: 0px;
+	margin: 20px 0px;
+	box-shadow: 0 7px 21px rgba(0,0,0,0.1);
+}
+.pricelist {
+	padding-left: 29px;
+	float: right;
+}
+.price ul {
+	list-style-type: none;
+	padding: 10px 10px;
+	margin: 0px;
+}
+.price ul li {
+	padding: 20px 82px;
+}
+.price ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 17px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: 800;
+}
+.discimg {
+	margin: 20px 0px;
+}
+.discimg img {
+	max-width: 100%;
+	max-height: 377px;
+}
+.discimg p {
+	text-align: left;
+	text-align: left;
+	/* padding: 7%; */
+	padding-top: 10%;
+	padding-right: 15%;
+}
+.makeapp {
+	background: #ec5598;
+	padding: 20px 20px;
+	border: 0px solid #ec5598;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: 700;
+	font-size: 15px;
+	
+}
+.makeapp a {
+text-decoration:none;
+
+}
+.banners {
+	margin: 30px 30px;
+}
+.banners img:hover {
+	background: #ec5598;
+	opacity: 0.3;
+	border-radius: 51%;
+}
+.contact {
+	max-width: 100%;
+	background-image: url(../images/Untitled-1.gif);
+	margin-top: 30px;
+	max-height: 600px;
+}
+.contact h3 {
+	text-align: center;
+	font-size: 30px;
+	font-family: fantasy;
+	letter-spacing: 24px;
+	padding: 29px 10px;
+	text-transform: uppercase;
+}
+.name {
+	width: 100%;
+	height: 38px;
+	background-color: transparent;
+	box-shadow: 7px 9px 30px #ec5598;
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 18px;
+	padding: 10px 10px;
+	margin: 29px;
+}
+.message {
+	width: 100%;
+	height: 100px;
+	background-color: transparent;
+	box-shadow: 7px 9px 30px #ec5598;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 18px;
+	padding: 10px 10px;
+	margin: 29px;
+}
+.address {
+	background-color: #FFF;
+	box-shadow: 2px 2px 20px #000;
+	width: 80%;
+	height: 50%;
+	margin: 20px 43px;
+	padding: 30px 10px;
+}
+.address h4 {
+	text-align: center;
+	padding: 20px 0px;
+}
+.address p {
+	padding: 20px 52px;
+	text-align: left;
+}
+.address img {
+	padding: 10px 15px;
+}
+.privacy {
+	background-color: #000;
+	width: 100%;
+}
+.privacy p {
+	text-align: center;
+	font-size: 16px;
+	padding: 10px 0px;
+	color: #ec5598;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+ @media screen and (max-width:980px) {
+.head {
+	max-height: 100%;
+	max-width: 100%;
+}
+.banner img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.menu ul li {
+	padding: 23px 24px;
+}
+.aboutimg {
+	text-align: center;
+}
+.aboutp {
+	padding: 48px 0px;
+	text-align: center;
+}
+.aboutp p {
+	text-align: center;
+}
+.name {
+	width: 88%;
+}
+.message {
+	width: 86%;
+	height: 100px;
+}
+}
+@media screen and (min-width:0px) and (max-width:768px) {
+.head {
+	max-width: 100%;
+}
+.banner img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.menu ul li {
+	padding: 0px 38px;
+	width: 100%;
+}
+.menu ul li a {
+	text-align: center;
+}
+.menu ul li a:hover {
+	color: #000;
+}
+.aboutimg img {
+	text-align: center;
+	max-width: 100%;
+	max-height: 100%;
+}
+.aboutp p {
+	text-align: center;
+}
+.menus ul li {
+	padding: 10px 18px;
+	display: table;
+}
+.price ul li {
+	padding: 20px 20px;
+}
+.contact h3 {
+	letter-spacing: 8px;
+}
+.contact {
+	max-width: 100%;
+	max-height: 600px;
+}
+.name {
+	width: 88%;
+}
+.message {
+	width: 86%;
+	height: 100px;
+}
+.address {
+	width: 100%;
+	margin: 0px;
+}
+.privacy p {
+	font-size: 9px;
+}
+}
